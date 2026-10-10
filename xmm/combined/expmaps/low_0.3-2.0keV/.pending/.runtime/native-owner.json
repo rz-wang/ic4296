@@ -1,0 +1,42 @@
+{
+  "argv": [
+    "/Applications/miniforge3/envs/sas-22.1.0-x86_64/opt/xmm-sas/xmmsas_22.1.0-a8f2c2afa-20250303/bin/emosaic",
+    "imagesets=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/data/tmp/task03/xmm_task03_emosaic__j4ms5ia/000_0672870101_m1_weighted.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/data/tmp/task03/xmm_task03_emosaic__j4ms5ia/001_0672870101_m2_weighted.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/data/tmp/task03/xmm_task03_emosaic__j4ms5ia/002_0672870101_pn_weighted.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/data/tmp/task03/xmm_task03_emosaic__j4ms5ia/003_0853230301_m1_weighted.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/data/tmp/task03/xmm_task03_emosaic__j4ms5ia/004_0853230301_m2_weighted.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/data/tmp/task03/xmm_task03_emosaic__j4ms5ia/005_0853230301_pn_weighted.fits",
+    "mosaicedset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/combined/expmaps/low_0.3-2.0keV/.pending/IC4296_xmm_combined_0.3-2.0keV_expmap.fits",
+    "withexposure=no",
+    "sampling=point"
+  ],
+  "cwd": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/combined/expmaps/low_0.3-2.0keV/.pending",
+  "log": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/logs/task03/low_0.3-2.0keV_expmap_emosaic.log",
+  "owner": {
+    "id": "d0fad0e5aafa4fe48d5f34e60b7d4181",
+    "parent_pid": 53836,
+    "stage": "low_0.3-2.0keV_expmap_emosaic"
+  },
+  "returncode": 0,
+  "pid": 53895,
+  "pgid": 53895,
+  "pfiles": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/combined/expmaps/low_0.3-2.0keV/.pending/.runtime/bc36924c6dfd4998be7ab78ba3d9b6bc/pfiles;/Applications/miniforge3/envs/heasoft_dev/heasoft/syspfiles",
+  "tmpdir": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/combined/expmaps/low_0.3-2.0keV/.pending/.runtime/bc36924c6dfd4998be7ab78ba3d9b6bc",
+  "started_epoch": 1791602011.440605,
+  "spawned_epoch": 1791602011.463975,
+  "finished_epoch": 1791602012.718644,
+  "seconds": 1.2780420780181885,
+  "ok": true,
+  "timed_out": false,
+  "status": "exited",
+  "processes": [
+    {
+      "pid": 53895,
+      "ppid": 53836,
+      "pgid": 53895,
+      "state": "sleeping",
+      "birth": "Fri Oct 9 23:13:31 2026",
+      "command": "/Applications/miniforge3/envs/sas-22.1.0-x86_64/opt/xmm-sas/xmmsas_22.1.0-a8f2c2afa-20250303/bin/emosaic imagesets=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/data/tmp/task03/xmm_task03_emosaic__j4ms5ia/000_0672870101_m1_weighted.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/data/tmp/task03/xmm_task03_emosaic__j4ms5ia/001_0672870101_m2_weighted.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/data/tmp/task03/xmm_task03_emosaic__j4ms5ia/002_0672870101_pn_weighted.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/data/tmp/task03/xmm_task03_emosaic__j4ms5ia/003_0853230301_m1_weighted.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/data/tmp/task03/xmm_task03_emosaic__j4ms5ia/004_0853230301_m2_weighted.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/data/tmp/task03/xmm_task03_emosaic__j4ms5ia/005_0853230301_pn_weighted.fits mosaicedset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/combined/expmaps/low_0.3-2.0keV/.pending/IC4296_xmm_combined_0.3-2.0keV_expmap.fits withexposure=no sampling=point"
+    }
+  ],
+  "remaining_processes": [],
+  "cleanup": [],
+  "error": null,
+  "previous_log": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/logs/task03/history/low_0.3-2.0keV_expmap_emosaic-1791602011440986000.log"
+}

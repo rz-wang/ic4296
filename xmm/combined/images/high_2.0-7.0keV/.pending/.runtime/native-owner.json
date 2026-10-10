@@ -1,0 +1,42 @@
+{
+  "argv": [
+    "/Applications/miniforge3/envs/sas-22.1.0-x86_64/opt/xmm-sas/xmmsas_22.1.0-a8f2c2afa-20250303/bin/emosaic",
+    "imagesets=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/images/0672870101/high_2.0-7.0keV/IC4296_xmm_obsid0672870101_m1_2.0-7.0keV_image_emasked.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/images/0672870101/high_2.0-7.0keV/IC4296_xmm_obsid0672870101_m2_2.0-7.0keV_image_emasked.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/images/0672870101/high_2.0-7.0keV/IC4296_xmm_obsid0672870101_pn_2.0-7.0keV_image_emasked.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/images/0853230301/high_2.0-7.0keV/IC4296_xmm_obsid0853230301_m1_2.0-7.0keV_image_emasked.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/images/0853230301/high_2.0-7.0keV/IC4296_xmm_obsid0853230301_m2_2.0-7.0keV_image_emasked.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/images/0853230301/high_2.0-7.0keV/IC4296_xmm_obsid0853230301_pn_2.0-7.0keV_image_emasked.fits",
+    "mosaicedset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/combined/images/high_2.0-7.0keV/.pending/IC4296_xmm_combined_2.0-7.0keV_image.fits",
+    "withexposure=no",
+    "sampling=point"
+  ],
+  "cwd": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/combined/images/high_2.0-7.0keV/.pending",
+  "log": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/logs/task03/high_2.0-7.0keV_image_emosaic.log",
+  "owner": {
+    "id": "3957c8fae2da43c687e4ea0bd3ffb2b3",
+    "parent_pid": 53591,
+    "stage": "high_2.0-7.0keV_image_emosaic"
+  },
+  "returncode": 0,
+  "pid": 53682,
+  "pgid": 53682,
+  "pfiles": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/combined/images/high_2.0-7.0keV/.pending/.runtime/6aa33ac0a7f541efa8b03504b8accc07/pfiles;/Applications/miniforge3/envs/heasoft_dev/heasoft/syspfiles",
+  "tmpdir": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/combined/images/high_2.0-7.0keV/.pending/.runtime/6aa33ac0a7f541efa8b03504b8accc07",
+  "started_epoch": 1791601786.8386319,
+  "spawned_epoch": 1791601786.865453,
+  "finished_epoch": 1791601788.122406,
+  "seconds": 1.283778190612793,
+  "ok": true,
+  "timed_out": false,
+  "status": "exited",
+  "processes": [
+    {
+      "pid": 53682,
+      "ppid": 53591,
+      "pgid": 53682,
+      "state": "sleeping",
+      "birth": "Fri Oct 9 23:09:46 2026",
+      "command": "/Applications/miniforge3/envs/sas-22.1.0-x86_64/opt/xmm-sas/xmmsas_22.1.0-a8f2c2afa-20250303/bin/emosaic imagesets=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/images/0672870101/high_2.0-7.0keV/IC4296_xmm_obsid0672870101_m1_2.0-7.0keV_image_emasked.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/images/0672870101/high_2.0-7.0keV/IC4296_xmm_obsid0672870101_m2_2.0-7.0keV_image_emasked.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/images/0672870101/high_2.0-7.0keV/IC4296_xmm_obsid0672870101_pn_2.0-7.0keV_image_emasked.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/images/0853230301/high_2.0-7.0keV/IC4296_xmm_obsid0853230301_m1_2.0-7.0keV_image_emasked.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/images/0853230301/high_2.0-7.0keV/IC4296_xmm_obsid0853230301_m2_2.0-7.0keV_image_emasked.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/images/0853230301/high_2.0-7.0keV/IC4296_xmm_obsid0853230301_pn_2.0-7.0keV_image_emasked.fits mosaicedset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/combined/images/high_2.0-7.0keV/.pending/IC4296_xmm_combined_2.0-7.0keV_image.fits withexposure=no sampling=point"
+    }
+  ],
+  "remaining_processes": [],
+  "cleanup": [],
+  "error": null,
+  "previous_log": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/logs/task03/history/high_2.0-7.0keV_image_emosaic-1791601786838923000.log"
+}

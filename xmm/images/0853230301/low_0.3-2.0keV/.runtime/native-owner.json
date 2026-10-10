@@ -1,0 +1,44 @@
+{
+  "argv": [
+    "/bin/bash",
+    "--noprofile",
+    "--norc",
+    "-c",
+    "evselect table=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/events/0853230301/IC4296_xmm_obsid0853230301_m2_fullkeV_event_cleaned_nocorners.fits imageset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/images/0853230301/low_0.3-2.0keV/IC4296_xmm_obsid0853230301_m2_0.3-2.0keV_image.fits withimageset=yes writedss=yes cleandss=no imagebinning=imageSize withrateset=no squarepixels=yes xcolumn=X ycolumn=Y ximagesize=900 yimagesize=900 withxranges=yes ximagemin=3401 ximagemax=48400 withyranges=yes yimagemin=3401 yimagemax=48400 expression='(PI in [300:2000]) && (FLAG & 0x766ba000)==0 && (PATTERN<=12) && ((CCDNR == 1) || (CCDNR == 2) || (CCDNR == 3) || (CCDNR == 4) || (CCDNR == 5) || (CCDNR == 6) || (CCDNR == 7))'"
+  ],
+  "cwd": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/images/0853230301/low_0.3-2.0keV",
+  "log": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/logs/0853230301/task01/counts_m2_low_0.3-2.0keV.log",
+  "owner": {
+    "id": "2976178371084755b85cfc125c5400e2",
+    "parent_pid": 39722,
+    "stage": "counts_m2_low_0.3-2.0keV",
+    "obsid": "0853230301",
+    "detector": "m2"
+  },
+  "returncode": 0,
+  "pid": 39826,
+  "pgid": 39826,
+  "pfiles": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/images/0853230301/low_0.3-2.0keV/.runtime/f64313649cd0408594c7b5346928040c/pfiles;/Applications/miniforge3/envs/heasoft_dev/heasoft/syspfiles",
+  "tmpdir": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/images/0853230301/low_0.3-2.0keV/.runtime/f64313649cd0408594c7b5346928040c",
+  "started_epoch": 1791584838.755933,
+  "spawned_epoch": 1791584838.81131,
+  "finished_epoch": 1791584839.536572,
+  "seconds": 0.7806398868560791,
+  "ok": true,
+  "timed_out": false,
+  "status": "exited",
+  "processes": [
+    {
+      "pid": 39826,
+      "ppid": 39722,
+      "pgid": 39826,
+      "state": "sleeping",
+      "birth": "Fri Oct 9 18:27:18 2026",
+      "command": "evselect table=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/events/0853230301/IC4296_xmm_obsid0853230301_m2_fullkeV_event_cleaned_nocorners.fits imageset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/images/0853230301/low_0.3-2.0keV/IC4296_xmm_obsid0853230301_m2_0.3-2.0keV_image.fits withimageset=yes writedss=yes cleandss=no imagebinning=imageSize withrateset=no squarepixels=yes xcolumn=X ycolumn=Y ximagesize=900 yimagesize=900 withxranges=yes ximagemin=3401 ximagemax=48400 withyranges=yes yimagemin=3401 yimagemax=48400 expression=(PI in [300:2000]) && (FLAG & 0x766ba000)==0 && (PATTERN<=12) && ((CCDNR == 1) || (CCDNR == 2) || (CCDNR == 3) || (CCDNR == 4) || (CCDNR == 5) || (CCDNR == 6) || (CCDNR == 7))"
+    }
+  ],
+  "remaining_processes": [],
+  "cleanup": [],
+  "error": null,
+  "previous_log": null
+}

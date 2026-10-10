@@ -1,0 +1,44 @@
+{
+  "argv": [
+    "/bin/bash",
+    "--noprofile",
+    "--norc",
+    "-c",
+    "emask expimageset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/expmaps/0672870101/sci_0.4-1.0keV/IC4296_xmm_obsid0672870101_pn_0.4-1.0keV_expmap.fits detmaskset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/emasks/0672870101/sci_0.4-1.0keV/IC4296_xmm_obsid0672870101_pn_0.4-1.0keV_emask.fits detmasktable=MASK threshold1=0.3 threshold2=0.5 withregionset=false"
+  ],
+  "cwd": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/emasks/0672870101/sci_0.4-1.0keV",
+  "log": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/logs/0672870101/task01/emask_pn_sci_0.4-1.0keV.log",
+  "owner": {
+    "id": "3d909c27af2d44dbabe2388d6a84573e",
+    "parent_pid": 40656,
+    "stage": "emask_pn_sci_0.4-1.0keV",
+    "obsid": "0672870101",
+    "detector": "pn"
+  },
+  "returncode": 0,
+  "pid": 40786,
+  "pgid": 40786,
+  "pfiles": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/emasks/0672870101/sci_0.4-1.0keV/.runtime/7477ffe5b77c46ce99b94033013cd6e9/pfiles;/Applications/miniforge3/envs/heasoft_dev/heasoft/syspfiles",
+  "tmpdir": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/emasks/0672870101/sci_0.4-1.0keV/.runtime/7477ffe5b77c46ce99b94033013cd6e9",
+  "started_epoch": 1791585395.0714629,
+  "spawned_epoch": 1791585395.12012,
+  "finished_epoch": 1791585395.620746,
+  "seconds": 0.549288272857666,
+  "ok": true,
+  "timed_out": false,
+  "status": "exited",
+  "processes": [
+    {
+      "pid": 40786,
+      "ppid": 40656,
+      "pgid": 40786,
+      "state": "sleeping",
+      "birth": "Fri Oct 9 18:36:35 2026",
+      "command": "emask expimageset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/expmaps/0672870101/sci_0.4-1.0keV/IC4296_xmm_obsid0672870101_pn_0.4-1.0keV_expmap.fits detmaskset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/emasks/0672870101/sci_0.4-1.0keV/IC4296_xmm_obsid0672870101_pn_0.4-1.0keV_emask.fits detmasktable=MASK threshold1=0.3 threshold2=0.5 withregionset=false"
+    }
+  ],
+  "remaining_processes": [],
+  "cleanup": [],
+  "error": null,
+  "previous_log": null
+}

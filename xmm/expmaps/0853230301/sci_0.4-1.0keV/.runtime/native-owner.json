@@ -1,0 +1,44 @@
+{
+  "argv": [
+    "/bin/bash",
+    "--noprofile",
+    "--norc",
+    "-c",
+    "eexpmap eventset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/events/0853230301/IC4296_xmm_obsid0853230301_pn_fullkeV_event_cleaned_nocorners.fits imageset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/images/0853230301/sci_0.4-1.0keV/IC4296_xmm_obsid0853230301_pn_0.4-1.0keV_image.fits expimageset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/expmaps/0853230301/sci_0.4-1.0keV/IC4296_xmm_obsid0853230301_pn_0.4-1.0keV_expmap.fits attitudeset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/data/xmm/0853230301/attitude.fits withdetcoords=no withvignetting=yes pimin=400 pimax=1000"
+  ],
+  "cwd": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/expmaps/0853230301/sci_0.4-1.0keV",
+  "log": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/logs/0853230301/task01/expmap_pn_sci_0.4-1.0keV.log",
+  "owner": {
+    "id": "8498deb2d30d4a26b592ea1714c9a405",
+    "parent_pid": 40131,
+    "stage": "expmap_pn_sci_0.4-1.0keV",
+    "obsid": "0853230301",
+    "detector": "pn"
+  },
+  "returncode": 0,
+  "pid": 40636,
+  "pgid": 40636,
+  "pfiles": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/expmaps/0853230301/sci_0.4-1.0keV/.runtime/fef75212a19441fb9a0218f7e98adce5/pfiles;/Applications/miniforge3/envs/heasoft_dev/heasoft/syspfiles",
+  "tmpdir": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/expmaps/0853230301/sci_0.4-1.0keV/.runtime/fef75212a19441fb9a0218f7e98adce5",
+  "started_epoch": 1791585300.5902689,
+  "spawned_epoch": 1791585300.610989,
+  "finished_epoch": 1791585304.537018,
+  "seconds": 3.946751117706299,
+  "ok": true,
+  "timed_out": false,
+  "status": "exited",
+  "processes": [
+    {
+      "pid": 40636,
+      "ppid": 40131,
+      "pgid": 40636,
+      "state": "sleeping",
+      "birth": "Fri Oct 9 18:35:00 2026",
+      "command": "eexpmap eventset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/events/0853230301/IC4296_xmm_obsid0853230301_pn_fullkeV_event_cleaned_nocorners.fits imageset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/images/0853230301/sci_0.4-1.0keV/IC4296_xmm_obsid0853230301_pn_0.4-1.0keV_image.fits expimageset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/expmaps/0853230301/sci_0.4-1.0keV/IC4296_xmm_obsid0853230301_pn_0.4-1.0keV_expmap.fits attitudeset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/data/xmm/0853230301/attitude.fits withdetcoords=no withvignetting=yes pimin=400 pimax=1000"
+    }
+  ],
+  "remaining_processes": [],
+  "cleanup": [],
+  "error": null,
+  "previous_log": null
+}

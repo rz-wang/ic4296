@@ -1,0 +1,42 @@
+{
+  "argv": [
+    "/Applications/miniforge3/envs/sas-22.1.0-x86_64/opt/xmm-sas/xmmsas_22.1.0-a8f2c2afa-20250303/bin/emosaic",
+    "imagesets=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/emasks/0672870101/sci_0.4-1.0keV/IC4296_xmm_obsid0672870101_m1_0.4-1.0keV_emask.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/emasks/0672870101/sci_0.4-1.0keV/IC4296_xmm_obsid0672870101_m2_0.4-1.0keV_emask.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/emasks/0672870101/sci_0.4-1.0keV/IC4296_xmm_obsid0672870101_pn_0.4-1.0keV_emask.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/emasks/0853230301/sci_0.4-1.0keV/IC4296_xmm_obsid0853230301_m1_0.4-1.0keV_emask.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/emasks/0853230301/sci_0.4-1.0keV/IC4296_xmm_obsid0853230301_m2_0.4-1.0keV_emask.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/emasks/0853230301/sci_0.4-1.0keV/IC4296_xmm_obsid0853230301_pn_0.4-1.0keV_emask.fits",
+    "mosaicedset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/combined/emasks/sci_0.4-1.0keV/.pending/IC4296_xmm_combined_0.4-1.0keV_emask.fits",
+    "withexposure=no",
+    "sampling=point"
+  ],
+  "cwd": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/combined/emasks/sci_0.4-1.0keV/.pending",
+  "log": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/logs/task03/sci_0.4-1.0keV_emask_emosaic.log",
+  "owner": {
+    "id": "b5a7b7387af544ce8d28367d4ea8266d",
+    "parent_pid": 53933,
+    "stage": "sci_0.4-1.0keV_emask_emosaic"
+  },
+  "returncode": 0,
+  "pid": 54024,
+  "pgid": 54024,
+  "pfiles": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/combined/emasks/sci_0.4-1.0keV/.pending/.runtime/9e30695dabe241738345ec58944daaf0/pfiles;/Applications/miniforge3/envs/heasoft_dev/heasoft/syspfiles",
+  "tmpdir": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/combined/emasks/sci_0.4-1.0keV/.pending/.runtime/9e30695dabe241738345ec58944daaf0",
+  "started_epoch": 1791602124.384367,
+  "spawned_epoch": 1791602124.406803,
+  "finished_epoch": 1791602125.6575081,
+  "seconds": 1.2731428146362305,
+  "ok": true,
+  "timed_out": false,
+  "status": "exited",
+  "processes": [
+    {
+      "pid": 54024,
+      "ppid": 53933,
+      "pgid": 54024,
+      "state": "sleeping",
+      "birth": "Fri Oct 9 23:15:24 2026",
+      "command": "/Applications/miniforge3/envs/sas-22.1.0-x86_64/opt/xmm-sas/xmmsas_22.1.0-a8f2c2afa-20250303/bin/emosaic imagesets=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/emasks/0672870101/sci_0.4-1.0keV/IC4296_xmm_obsid0672870101_m1_0.4-1.0keV_emask.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/emasks/0672870101/sci_0.4-1.0keV/IC4296_xmm_obsid0672870101_m2_0.4-1.0keV_emask.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/emasks/0672870101/sci_0.4-1.0keV/IC4296_xmm_obsid0672870101_pn_0.4-1.0keV_emask.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/emasks/0853230301/sci_0.4-1.0keV/IC4296_xmm_obsid0853230301_m1_0.4-1.0keV_emask.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/emasks/0853230301/sci_0.4-1.0keV/IC4296_xmm_obsid0853230301_m2_0.4-1.0keV_emask.fits /Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/emasks/0853230301/sci_0.4-1.0keV/IC4296_xmm_obsid0853230301_pn_0.4-1.0keV_emask.fits mosaicedset=/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/combined/emasks/sci_0.4-1.0keV/.pending/IC4296_xmm_combined_0.4-1.0keV_emask.fits withexposure=no sampling=point"
+    }
+  ],
+  "remaining_processes": [],
+  "cleanup": [],
+  "error": null,
+  "previous_log": "/Users/ruizewang629/Documents/grad/research/ngc4261_ic4296/results/xmm/IC4296/logs/task03/history/sci_0.4-1.0keV_emask_emosaic-1791602124384672000.log"
+}
